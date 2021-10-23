@@ -520,57 +520,6 @@ body {
     font-weight: 300;
     margin-bottom: 2.5rem; }
 
-/*
-.btn{
-    cursor:pointer;
-    text-align: center;
-    display:inline-flex;
-    text-transform: uppercase;
-    position:relative;
-    overflow: hidden;
-    border-radius:100px;
-    background-image:linear-gradient(to right, var(--color-primary-light),var(--color-primary-dark));
-    border:none;
-    outline:none;
-    color:#fff;
-
-    &__visible{
-        display:inline-block;
-        transition:transform .2s;
-        padding:2rem  7.5rem;
-        width:100%;
-        height:100%;
-
-    }
-    &__hidden{
-        
-        display:inline-block;
-        position:absolute;
-        left:0;
-        top:-100%;
-        padding:2rem  0rem;
-        width:100%;
-        height:100%;
-        transition:top .2s;
-
-    }
-
-    &:hover{
-        background-image:linear-gradient(to left, var(--color-primary-light),var(--color-primary-dark));
-        & .btn__visible{
-            transform:translateY(100%);
-        }
-        & .btn__hidden{
-            top:0;
-            
-        }
-    }
-
-    &:focus{
-        outline:none;
-        animation:pulsation 1s infinite;
-    }
-}*/
 .btn {
   position: relative;
   border-radius: 100px;
@@ -606,3 +555,7 @@ body {
     background-image: linear-gradient(to left, var(--color-primary-light), var(--color-primary-dark)); }
   .btn:focus {
     animation: pulsation 1s infinite; }
+  .twitter-tweet{
+    margin: 0 auto;
+    padding-bottom:2rem;
+  }
