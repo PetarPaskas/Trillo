@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /css/
+Disallow: /sass/
+Disallow: /img/
+Allow: /img/hotel-1.jpg
+Allow: /img/hotel-2.jpg
+Allow: /img/hotel-3.jpg
+Disallow: /package-lock.json
+Disallow: /package.json
