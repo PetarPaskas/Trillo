@@ -1,0 +1,12 @@
+<ifModule mod_expires.c>
+ExpiresActive On 
+ExpiresByType image/x-icon "access 2592000 seconds"
+ExpiresByType image/jpeg "access 2592000 seconds"
+ExpiresByType image/jpg "access 1 month"
+ExpiresByType image/svg "access 1 month"
+ExpiresByType image/png "access 1 month"
+ExpiresByType image/gif "access 1 month"
+ExpiresByType text/css "access 1 day"
+ExpiresByType text/html "access 600 seconds"
+ExpiresByType application/xhtml+xml "access 600 seconds"
+</ifModule>
